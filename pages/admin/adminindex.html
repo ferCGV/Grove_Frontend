@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Panel Administrador - GROVE</title>
+  <link rel="stylesheet" href="/css/admin/index.css">
+</head>
+<body>
+  <header class="admin-header">
+    <div class="logo">
+      <img src="/assets/imgs/Logogrove.jpg" alt="GROVE Logo">
+      <span>GROVE Admin</span>
+    </div>
+    <nav class="admin-nav">
+      <a href="adminindex.html">Inicio</a>
+      <a href="clientes.html" target="_blank">Clientes</a>
+      <a href="services.html" target="_blank">Servicios</a>
+      <a href="citas.html" target="_blank">Citas</a>
+      <a class="LogOut" href="#">Cerrar sesión</a>
+    </nav>
+  </header>
+
+  <main class="admin-main">
+    <section class="welcome">
+      <h1>Bienvenido, Administrador</h1>
+      <p>Gestiona los servicios, clientes y citas desde aquí.</p>
+    </section>
+
+    <section class="admin-cards">
+      <div class="card">
+        <h2>Clientes</h2>
+        <p>Ver y editar información de los clientes.</p>
+        <button><a href="clientes.html" target="_blank" >ver clientes</a></button>
+      </div>
+      <div class="card">
+        <h2>Servicios</h2>
+        <p>Agregar, eliminar o modificar servicios.</p>
+        <button><a href="services.html" target="_blank" >ver servicios</a></button>
+      </div>
+      <div class="card">
+        <h2>Citas</h2>
+        <p>Ver agenda de citas y asignar horarios.</p>
+        <button><a href="citas.html" target="_blank" >ver citas</a></button>
+      </div>
+    </section>
+  </main>
+</body>
+<script src="/js/admin/adminindex.js"></script>
+</body>
+</html>
+

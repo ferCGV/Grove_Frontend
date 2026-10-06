@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Citas</title>
+    <link rel="stylesheet" href="/css/admin/citas.css">
+</head>
+<body>
+    
+    <div id="contenedorprincipal">
+        <h1>Historial de citas</h1>
+        <button id="botonfiltrar">Filtrar</button>
+        <div id="contenedordefiltros">
+            <div id="contenedordeinputs">
+                <div class="filtros"><label for="">Id del cliente:</label> <input type="number" id="iddelcliente"></div>
+                <div class="filtros"><label for="">Id del barbero:</label> <input id="iddelbarbero" type="number"></div>
+                <div class="filtros"><label for="">Id del servicio</label> <input id="iddelservicio" type="text"></div>
+                <div class="filtros"><label for="">Estado de la cita:</label> <input id="estadodelacita" type="text"></div>
+                <div class="filtros"><label id="fechatitulo" for="">Fecha:</label>   <label for="" >Desde</label> <input id="fechainicio" type="date">  <label for="">Hasta</label><input id="fechafinal" type="date"> </div>
+            </div>
+            
+            <div id="contenedordebotones">
+                <button id="botonconfirmfiltro">Confirmar</button>
+                <button  id="botoncerrar">Cerrar</button>
+            </div>
+        </div>
+        
+        <table>
+            <thead>
+                <th>ID cita</th>
+                <th>ID cliente</th>
+                <th>ID Barbero</th>
+                <th>Fecha Cita</th>
+                <th>Hora cita</th>
+                <th>ID_servicio</th>
+                <th>Estado</th>
+            </thead>
+            <tbody>
+                
+            </tbody>
+        </table>
+    </div>
+        
+    <script src="/js/admin/citas.js">
+    </script>
+    
+</body>
+</html>

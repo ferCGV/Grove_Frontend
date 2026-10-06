@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Agendar Cita</title>
+  <link rel="stylesheet" href="agendar.css">
+</head>
+<body>
+
+  <form id="citaForm">
+    <h2>Agendar Cita</h2>
+
+    <!-- Servicio -->
+    <select name="servicio" required>
+      <option value="" disabled selected>Selecciona un servicio</option>
+      <option value="corte">Corte de cabello</option>
+      <option value="barba">Barba</option>
+      <option value="limpieza">Limpieza facial</option>
+    </select>
+
+    <!-- Fecha -->
+    <input type="date" name="fecha" required />
+
+    <!-- Hora -->
+    <input type="time" name="hora" required />
+
+    <!-- Barbero -->
+    <select name="barbero" required>
+      <option value="" disabled selected>Selecciona un barbero</option>
+      <option value="juan">Alicia</option>
+      <option value="alex">Fermin</option>
+      <option value="marco">Carlos</option>
+    </select>
+
+    <!-- Botones -->
+    <div class="buttons">
+      <button type="submit">Confirmar</button>
+      <button type="button">Consultar horario de barberos</button>
+      <button type="button">Consultar horario de la barbería</button>
+    </div>
+  </form>
+
+</body>
+</html>

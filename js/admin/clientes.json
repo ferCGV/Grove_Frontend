@@ -1,0 +1,158 @@
+[
+  {
+    "ID_Cliente": 1,
+    "Nom_Cliente": "Gustavo Barcelo",
+    "Tel_Cliente": "9982752982",
+    "FechaReg_Cliente": "2025-01-01"
+  },
+  {
+    "ID_Cliente": 2,
+    "Nom_Cliente": "Miquel Moliner",
+    "Tel_Cliente": "9274527272",
+    "FechaReg_Cliente": "2025-01-02"
+  },
+  {
+    "ID_Cliente": 3,
+    "Nom_Cliente": "Jorge Aldaya",
+    "Tel_Cliente": "9172625398",
+    "FechaReg_Cliente": "2025-01-03"
+  },
+  {
+    "ID_Cliente": 4,
+    "Nom_Cliente": "Nuria Monfort",
+    "Tel_Cliente": "9933246184",
+    "FechaReg_Cliente": "2025-01-03"
+  },
+  {
+    "ID_Cliente": 5,
+    "Nom_Cliente": "Miguel Perez",
+    "Tel_Cliente": "3456789012",
+    "FechaReg_Cliente": "2025-01-25"
+  },
+  {
+    "ID_Cliente": 6,
+    "Nom_Cliente": "Carla Ortiz",
+    "Tel_Cliente": "9876543210",
+    "FechaReg_Cliente": "2025-01-29"
+  },
+  {
+    "ID_Cliente": 7,
+    "Nom_Cliente": "Ana Torres",
+    "Tel_Cliente": "9222607827",
+    "FechaReg_Cliente": "2025-01-05"
+  },
+  {
+    "ID_Cliente": 8,
+    "Nom_Cliente": "Luis Ramírez",
+    "Tel_Cliente": "9461305365",
+    "FechaReg_Cliente": "2025-01-22"
+  },
+  {
+    "ID_Cliente": 9,
+    "Nom_Cliente": "Sofía Herrera",
+    "Tel_Cliente": "9668702025",
+    "FechaReg_Cliente": "2025-01-01"
+  },
+  {
+    "ID_Cliente": 10,
+    "Nom_Cliente": "Carlos Medina",
+    "Tel_Cliente": "9400011379",
+    "FechaReg_Cliente": "2025-01-22"
+  },
+  {
+    "ID_Cliente": 11,
+    "Nom_Cliente": "Laura Gómez",
+    "Tel_Cliente": "9107612572",
+    "FechaReg_Cliente": "2025-01-08"
+  },
+  {
+    "ID_Cliente": 12,
+    "Nom_Cliente": "Pedro Sánchez",
+    "Tel_Cliente": "9296571200",
+    "FechaReg_Cliente": "2025-01-31"
+  },
+  {
+    "ID_Cliente": 13,
+    "Nom_Cliente": "Marta Ruiz",
+    "Tel_Cliente": "9522313847",
+    "FechaReg_Cliente": "2025-01-15"
+  },
+  {
+    "ID_Cliente": 14,
+    "Nom_Cliente": "Daniel Castro",
+    "Tel_Cliente": "9222936945",
+    "FechaReg_Cliente": "2025-01-20"
+  },
+  {
+    "ID_Cliente": 15,
+    "Nom_Cliente": "Lucía Fernández",
+    "Tel_Cliente": "9530238890",
+    "FechaReg_Cliente": "2025-01-20"
+  },
+  {
+    "ID_Cliente": 16,
+    "Nom_Cliente": "Javier López",
+    "Tel_Cliente": "9151473562",
+    "FechaReg_Cliente": "2025-01-23"
+  },
+  {
+    "ID_Cliente": 17,
+    "Nom_Cliente": "Isabel Romero",
+    "Tel_Cliente": "9771012089",
+    "FechaReg_Cliente": "2025-01-18"
+  },
+  {
+    "ID_Cliente": 18,
+    "Nom_Cliente": "Tomás Ortega",
+    "Tel_Cliente": "9712080239",
+    "FechaReg_Cliente": "2025-01-16"
+  },
+  {
+    "ID_Cliente": 19,
+    "Nom_Cliente": "Carmen León",
+    "Tel_Cliente": "9632319185",
+    "FechaReg_Cliente": "2025-01-05"
+  },
+  {
+    "ID_Cliente": 20,
+    "Nom_Cliente": "Alberto Vega",
+    "Tel_Cliente": "9902271214",
+    "FechaReg_Cliente": "2025-01-17"
+  },
+  {
+    "ID_Cliente": 21,
+    "Nom_Cliente": "Sara Navarro",
+    "Tel_Cliente": "9498498802",
+    "FechaReg_Cliente": "2025-01-21"
+  },
+  {
+    "ID_Cliente": 22,
+    "Nom_Cliente": "Andrés Molina",
+    "Tel_Cliente": "9490755859",
+    "FechaReg_Cliente": "2025-01-26"
+  },
+  {
+    "ID_Cliente": 23,
+    "Nom_Cliente": "Patricia Ibáñez",
+    "Tel_Cliente": "9356289451",
+    "FechaReg_Cliente": "2025-01-23"
+  },
+  {
+    "ID_Cliente": 24,
+    "Nom_Cliente": "Héctor Rivas",
+    "Tel_Cliente": "9285708766",
+    "FechaReg_Cliente": "2025-01-10"
+  },
+  {
+    "ID_Cliente": 25,
+    "Nom_Cliente": "Elena Duarte",
+    "Tel_Cliente": "9839546923",
+    "FechaReg_Cliente": "2025-01-01"
+  },
+  {
+    "ID_Cliente": 26,
+    "Nom_Cliente": "Ricardo Campos",
+    "Tel_Cliente": "9836009505",
+    "FechaReg_Cliente": "2025-01-15"
+  }
+]

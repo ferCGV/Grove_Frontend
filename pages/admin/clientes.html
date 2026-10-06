@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clientes</title>
+    <link rel="stylesheet" href="/css/admin/clientes.css">
+</head>
+<body>
+
+    <div id="contenedorprincipal">
+        <h1>Clientes</h1>
+        <button id="botonfiltrar">Filtrar</button>
+        <div id="contenedordefiltros">
+            <div id="contenedordeinputs">
+                <div class="filtros"><label for="">Id del cliente:</label> <input type="number" id="idcliente"></div>
+                <div class="filtros"><label for="">Nombre del cliente:</label> <input id="nombrecliente" type="text"></div>
+            </div>
+            <div id="contenedordebotones">
+                <button id="botonconfirmfiltro">Confirmar</button>
+                <button  id="botoncerrar">Cerrar</button>
+            </div>
+        </div>
+        
+        <table>
+            <thead>
+                <th>ID cliente</th>
+                <th>Nombre cliente</th>
+                <th>Telefono cliente</th>
+                <th>Fecha registro</th>
+        
+            </thead>
+            <tbody>
+                
+            </tbody>
+        </table>
+    </div>
+
+<script src="/js/admin/clientes.js">
+</script>
+ 
+</body>
+</html>

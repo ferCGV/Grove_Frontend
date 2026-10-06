@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background-color: #8e8e8e;
+  color: rgb(255, 255, 255);
+  min-height: 100vh;
+}
+a{
+  text-decoration: unset;
+  color: rgb(251, 251, 251);
+}
+
+.admin-header {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo img {
+  height: 40px;
+  border-radius: 50%;
+}
+
+.logo span {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.admin-nav a {
+  margin-left: 1.5rem;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.admin-nav a:hover {
+  color: #ffffff;
+}
+
+.admin-main {
+  padding: 2rem;
+}
+
+.welcome {
+  margin-bottom: 2rem;
+}
+
+.welcome h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.admin-cards {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: #000000;
+  border-radius: 12px;
+  padding: 1.5rem;
+  flex: 1 1 250px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card h2 {
+  margin-bottom: 0.5rem;
+  font-size: 1.25rem;
+}
+
+.card p {
+  margin-bottom: 1rem;
+  font-size: 0.95rem;
+}
+
+.card button {
+  background-color: #9b9b9b;
+  color: #0f2e14;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.card button:hover {
+  background-color: #868686;
+}

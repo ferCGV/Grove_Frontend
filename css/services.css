@@ -1,0 +1,135 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f4f4;
+  color: #1a1a1a;
+}
+
+.servicios-container {
+  max-width: 1300px;
+  margin: 100px auto 60px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
+.servicio {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  min-height: 480px;
+}
+
+
+.info {
+  flex: 1;
+  padding: 40px;
+  min-width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.info h2 {
+  font-size: 2.2rem;
+  margin-bottom: 25px;
+  font-weight: 600;
+  color: #000000;
+}
+
+.info ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 25px;
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+.info ul li {
+  margin-bottom: 10px;
+  position: relative;
+  padding-left: 20px;
+}
+
+.info ul li::before {
+  content: "•";
+  color: #00672d;
+  position: absolute;
+  left: 0;
+  font-size: 1.2rem;
+}
+
+.precio {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 25px;
+}
+
+button {
+  padding: 12px 28px;
+  border: 1px solid #00672d;
+  background: transparent;
+  color: #00672d;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  align-self: start;
+}
+
+button:hover {
+  background-color: #00672d;
+  color: white;
+}
+
+.arrows:hover{
+  background-color: #353535;
+  color: white;
+
+}
+
+.slider {
+  margin-right: 140px;
+  align-self: center;
+  min-width: 380px;
+  max-width: 580px;
+  height: 380px;
+}
+
+.slider img {
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+
+
+
+.flechas {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+  padding: 0 15px;
+}
+
+.flechas button {
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  font-size: 1.4rem;
+  padding: 6px 12px;
+  border-radius: 50%;
+  cursor: pointer;
+}

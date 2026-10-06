@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.slider{
+    outline: 2px solid rgb(0, 0, 0);
+    position: relative;
+    transition: all ease 0.6;
+    overflow: hidden;
+    
+}
+
+/* .arrows:first-child */
+
+.container{
+    
+    display: flex;
+    height: 100%;
+    width: 300%;
+    
+    
+}
+
+.images{
+    position: relative;
+    height: 100%;
+    width: 33.33%;
+    
+}
+
+
+.buttons{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    top: 50%;
+    width: 100%;
+}
+
+.arrows{
+    appearance: unset;
+    border: none;
+    background-color: transparent;
+    font-size: 22px;
+    color: #fff;
+}
+
+
+.images img {
+    z-index: 7;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-size:cover;
+    
+    
+}
